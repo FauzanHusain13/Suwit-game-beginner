@@ -1,0 +1,62 @@
+:root {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    margin-top: 40px;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+.summary {
+    margin: 0 auto;
+    border: 3px solid blanchedalmond;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+}
+
+#inGame {
+    font-size: 16px;
+}
+
+#result {
+    font-size: 16px;
+}
+
+.games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.option {
+    width: 30%;
+    margin: 10px 15px;
+    padding: 25px;
+    text-align: center;
+    background-color: bisque;
+}
+
+.option:hover {
+    cursor: pointer;
+    background-color: burlywood;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) ease-in-out;
+    transform: scale(4deg);
+}
